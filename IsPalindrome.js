@@ -5,7 +5,7 @@ function PalindromeResult(inStr) {
             result = false;
         }
     }
-    return result
-}
+    return result;
+};
 
 export const IsPalindrome = (str, ignoreCapitalisation = false) => ignoreCapitalisation == true ? PalindromeResult(str.toUpperCase()) : PalindromeResult(str);
